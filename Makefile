@@ -1,9 +1,5 @@
-build: 
-	go build -o bin/main main.go 
-
-run: 
-	go run main.go
-
+tidy:
+	go mod tidy
 
 protoc: 
 	protoc --go_out=. \
