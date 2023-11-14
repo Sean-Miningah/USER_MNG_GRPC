@@ -8,8 +8,8 @@ protoc:
 		--go-grpc_opt=paths=source_relative \
 		usermgmt/usermgmt.proto
 
-protoc_server: 
+grpc_server: 
 	go run server/server.go
 
-protoc_client: 
+grpc_client: 
 	go run client/client.go
