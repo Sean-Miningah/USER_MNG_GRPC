@@ -1,4 +1,4 @@
-## USERMANAGEMENT PROJECT
+## USER MANAGEMENT SYSTEM
 
 This is a [GRPC](https://grpc.io/docs/what-is-grpc/introduction/) in GO project.
 
